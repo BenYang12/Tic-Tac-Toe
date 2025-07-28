@@ -144,7 +144,9 @@ startBtn.addEventListener("click", () => {
   DisplayController.render();
 });
 
-const restartBtn = document.getElementById("restartBtn");
+
+
+const restartBtn = document.querySelector("#restartBtn");
 restartBtn.addEventListener("click", () => {
   GameController.resetGame();//reset 
   DisplayController.render();//then immedietley render
