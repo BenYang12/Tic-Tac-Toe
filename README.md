@@ -1,7 +1,7 @@
 # Tic Tac Toe 🎮
 
 A browser-based Tic Tac Toe game built with **JavaScript**, **Webpack**, **Jest (TDD)**, and the **Module Pattern**.  
-The game supports two players, custom names, win/tie detection, restart functionality, and even fetches a celebration GIF from the **Giphy API** when a player wins.
+The game supports two players, custom names, win/tie detection, restart functionality, and fetches a celebration GIF from the **Giphy API** when a player wins.
 
 ---
 
@@ -13,7 +13,7 @@ The game supports two players, custom names, win/tie detection, restart function
 - Fun **celebration GIF** via [Giphy API](https://developers.giphy.com/) when a player wins.
 - Clean, responsive **UI with CSS Flexbox & Grid**.
 - **Test-Driven Development** using Jest for game logic.
-- Organized with the **Module Pattern** for separation of concerns.
+- Organized with the **Module Pattern** for loosely coupled code
 
 ---
 
