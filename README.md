@@ -23,3 +23,28 @@ The game supports two players, custom names, win/tie detection, restart function
 - Webpack (bundling, asset management)
 - Jest (unit testing)
 - ESLint (linting / code quality)
+
+# 📂 Project Structure
+├── index.js # Entry point, event listeners
+├── gameBoard.js # Manages board state
+├── gameController.js # Controls game flow & rules
+├── createPlayer.js # Factory for player objects
+├── displayController.js # Handles DOM updates
+├── styles.css # Styling
+├── template.html # HTML template
+├── *.test.js # Jest test files
+└── .eslintrc.json # ESLint configuration
+
+
+---
+
+# ▶️ How to Run
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe.git
+   cd tic-tac-toe
+npm install
+npm run dev
+npm test
+
