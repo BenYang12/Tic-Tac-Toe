@@ -1,47 +1,25 @@
-# Tic-Tac-Toe
+# Tic Tac Toe 🎮
 
-A browser-based Tic-Tac-Toe game built with **HTML**, **CSS**, and **JavaScript**, following best practices from The Odin Project. I used **factory functions**, the **module pattern (IIFE)**, and **DOM manipulation**.
-
----
-
-## 🧠 Features
-
-- Two-player gameplay (Player X vs Player O)
-- Displays current player turn and detects win/draw conditions
-- Resets the game board
-- Clean UI with a retro-inspired font
+A browser-based Tic Tac Toe game built with **JavaScript**, **Webpack**, **Jest (TDD)**, and the **Module Pattern**.  
+The game supports two players, custom names, win/tie detection, restart functionality, and even fetches a celebration GIF from the **Giphy API** when a player wins.
 
 ---
 
-## 🧱 Technologies Used
-
-- HTML5  
-- CSS3  
-- JavaScript 
-
----
-## 🧩 Architecture Breakdown
-
-- **Gameboard Module (IIFE):**
-  - Stores the board state (array of 9 cells)
-  - Provides methods to update or reset the board
-
-- **Player Factory:**
-  - Creates player objects with name and marker (X or O)
-
-- **Game Controller Module (IIFE):**
-  - Handles game flow (turns, win/draw checking)
-  - Communicates with the Gameboard and DOM
-
-- **Display Controller Module (IIFE):**
-  - Updates UI elements (status messages, board rendering)
-  - reflects the game state
+## 🚀 Features
+- Classic **3×3 Tic Tac Toe** gameplay.
+- **Two players** with custom or default names.
+- Real-time **game status updates** (turn tracking, win/tie messages).
+- **Restart button** to reset the game without refreshing.
+- Fun **celebration GIF** via [Giphy API](https://developers.giphy.com/) when a player wins.
+- Clean, responsive **UI with CSS Flexbox & Grid**.
+- **Test-Driven Development** using Jest for game logic.
+- Organized with the **Module Pattern** for separation of concerns.
 
 ---
 
-## 🎨 Font & Styling
-
-This project uses [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) from Google Fonts to give it a classic, retro arcade feel.
-
-
-
+## 🛠️ Tech Stack
+- HTML5 & CSS3
+- Vanilla JavaScript (ES6+)
+- Webpack (bundling, asset management)
+- Jest (unit testing)
+- ESLint (linting / code quality)
